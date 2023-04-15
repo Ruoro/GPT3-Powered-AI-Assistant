@@ -3,7 +3,7 @@ import openai
 import streamlit as st
 
 # Set OpenAI API key
-openai.api_key = "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"
+openai.api_key = ""
 
 # Set the model
 model = "text-davinci-003"
