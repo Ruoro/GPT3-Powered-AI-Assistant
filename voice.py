@@ -8,7 +8,7 @@
 
 # # Set up the OpenAI API key
 # openai.api_base = "https://api.openai.com"
-# openai.api_key = "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"
+# openai.api_key = ""
 
 
 # # Set up the speech engine
@@ -90,8 +90,8 @@ import os
 from gtts import gTTS
 
 # Set up the OpenAI API key and base URL
-openai.api_key = "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"
-openai.api_base = "https://api.openai.com/v1/completions"
+openai.api_key = ""
+openai.api_base = "https://api.openai.com/v1/"
 
 # Set up the speech engine
 engine = pyttsx3.init()
